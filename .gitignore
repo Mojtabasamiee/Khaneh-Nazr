@@ -1,0 +1,59 @@
+# ===========================
+# Unity .gitignore استاندارد
+# ===========================
+
+# پوشه‌های ساخته‌شده توسط یونیتی (نبید در گیت باشند)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# فایل‌های حل مسئله
+sysinfo.txt
+*.stackdump
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# فایل‌های حل بحران (Crashlytics)
+crashlytics-build.properties
+fabric.properties
+
+# اندروید
+**/[Aa]ndroidStudio/*
+*.apk
+*.aab
+.gradle/
+local.properties
+*.keystore
+*.keystore.meta
+
+# ویندوز / مک
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ویژوال استودیو / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.sln.meta
+
+# یونیتی کلاود
+UnityCloudBuildAssetsAndProjectMetaFiles
+
+# فایل‌های اضافی
+*.profraw
+*.coverage
+*.coveragexml
